@@ -372,13 +372,6 @@ struct IntPoint: Hashable {
 	let z: Int
 }
 
-enum Orientation {
-	case base
-	case reverseX
-	case reverseY
-	case reverseZ
-}
-
 enum ScriptError: Error { case arguments }
 
 extension URL {
